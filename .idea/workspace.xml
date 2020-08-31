@@ -28,66 +28,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1147362658">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="40" />
-          <entry key="ftl" value="5" />
-          <entry key="java" value="510" />
-          <entry key="properties" value="3" />
-          <entry key="txt" value="3" />
-          <entry key="xml" value="67" />
-          <entry key="yml" value="51" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="40" />
-          <entry key="FTL" value="5" />
-          <entry key="JAVA" value="510" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="3" />
-          <entry key="XML" value="67" />
-          <entry key="YAML" value="51" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="ft" value="13" />
-          <entry key="ftl" value="49" />
-          <entry key="java" value="39891" />
-          <entry key="properties" value="3" />
-          <entry key="xml" value="415" />
-          <entry key="yml" value="487" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="FTL" value="49" />
-          <entry key="JAVA" value="39891" />
-          <entry key="Properties" value="3" />
-          <entry key="SQL" value="12" />
-          <entry key="VTL" value="13" />
-          <entry key="XML" value="403" />
-          <entry key="YAML" value="487" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
@@ -685,6 +625,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -906,7 +847,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
       <listeners />
@@ -914,16 +856,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.TestRabbitMq.testA" />
       <item itemvalue="Spring Boot.eureka01" />
       <item itemvalue="Spring Boot.eureka02" />
       <item itemvalue="Spring Boot.cms01" />
@@ -944,7 +887,6 @@
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ManageCmsClientApplication" />
       <item itemvalue="Spring Boot.ManageOrderApplication" />
-      <item itemvalue="JUnit.TestRabbitMq.testA" />
       <item itemvalue="Spring Boot.ManageMediaProcessorApplication (1)" />
       <item itemvalue="Spring Boot.ManageMediaProcessorApplication (2)" />
       <item itemvalue="Spring Boot.ManageMediaProcessorApplication (4)" />
